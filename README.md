@@ -33,10 +33,10 @@ python3 GenerateTokenPickle.py
 ### 11. You'll find a url https://accounts.google.com/o/oauth2/=offline like this. just copy this url and paste on browser and login into your google account. that's it. you'll see 'The authentication flow has completed. You may close this window' this massage. then you're done.
 ### 12. 
 ```
-cp -r token.pickle /sdcard/download
+cp -r token.pickle /sdcard
 ```
 ### 13. Boom 💥! 
-goto your sdcard/download folder you'll find token.pickle there.
+goto your sdcard folder you'll find token.pickle there.
 
 We're Done.
 # Enjoy And don't forget to star this repo 🙂
