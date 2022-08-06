@@ -8,7 +8,7 @@ apt update && apt upgrade && pkg i git && pkg i python3 && pkg update python && 
 ```
 git clone https://github.com/TheNaimBro/TokenPickle
 ```
-### 4. make sure Credentials.json file present in your storage/download folder. if not then just move credentials.json file into the download folder.
+### 4. make sure Credentials.json file present in your storage folder not in Sd card. if not then just move credentials.json file into the sdcard. Not in any folder.
 ### 5. you have to give storage permission to termux. for that use this command.
 ```
 termux-setup-storage
@@ -36,7 +36,7 @@ python3 GenerateTokenPickle.py
 cp -r token.pickle /sdcard
 ```
 ### 13. Boom 💥! 
-goto your sdcard folder you'll find token.pickle there.
+goto your sdcard (phone memory) you'll find token.pickle there.
 
 We're Done.
 # Enjoy And don't forget to star this repo 🙂
