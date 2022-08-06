@@ -15,7 +15,7 @@ termux-setup-storage
 ```
 ### 6. 
 ```
-cd /sdcard/download
+cd /sdcard
 ```
 ### 7. 
 ```
