@@ -6,7 +6,7 @@ apt update && apt upgrade && pkg i git && pkg i python3 && pkg update python && 
 ```
 ### 3.
 ```
-git clone https://github.com/TheNaimBro/TokenPickle
+git clone https://github.com/FollowNaim/TokenPickle
 ```
 ### 4. make sure Credentials.json file present in your storage folder not in Sd card. if not then just move credentials.json file into the sdcard. Not in any folder.
 ### 5. you have to give storage permission to termux. for that use this command.
