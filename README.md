@@ -5,59 +5,67 @@
 ### 2. Open Termux and just copy paste all the commands that described below, Make sure you have internet connection. if you see Y/n then Type y.
 
 ```
-sudo apt update && sudo apt upgrade -y && sudo apt install git python3 python3-pip -y && sudo apt upgrade python3 -y && python3 -m pip install --upgrade pip && pip install google-api-python-client google-auth-httplib2 google-auth-oauthlib
-
+apt update && apt upgrade -y && apt install git python3 -y && apt upgrade python3 -y && pkg install python-cryptography && pip install google-api-python-client google-auth-httplib2 google-auth-oauthlib
 ```
 
 ### 3.
 
 ```
+apt update && apt upgrade
+```
+
+### 4.
+
+```
 git clone https://github.com/FollowNaim/TokenPickle
 ```
 
-### 4. make sure Credentials.json file present in your storage folder not in Sd card. if not then just move credentials.json file into the sdcard. Not in any folder.
+### 5. make sure Credentials.json file present in your storage folder not in Sd card. if not then just move credentials.json file into the sdcard. Not in any folder.
 
-### 5. you have to give storage permission to termux. for that use this command.
+### 6. you have to give storage permission to termux. for that use this command.
 
 ```
 termux-setup-storage
 ```
 
-### 6.
+### 7.
 
 ```
 cd /sdcard
 ```
 
-### 7.
+### 8.
 
 ```
 cp -r credentials.json /data/data/com.termux/files/home/TokenPickle
 ```
 
-### 8. Just exit from termux and reopen it.
-
 ### 9.
-
 ```
-cd TokenPickle
+cd
 ```
 
 ### 10.
 
 ```
+cd TokenPickle
+```
+
+### 11.
+
+```
 python3 GenerateTokenPickle.py
 ```
 
-### 11. You'll find a url https://accounts.google.com/o/oauth2/=offline like this. just copy this url and paste on browser and login into your google account. that's it. you'll see 'The authentication flow has completed. You may close this window' this massage. then you're done.
+### 12. You'll find a url https://accounts.google.com/o/oauth2/=offline like this. just copy this url and paste on browser and login into your google account. that's it. you'll see 'The authentication flow has completed. You may close this window' this massage. then you're done.
 
-### 12.
+### 13.
 
 ```
 cp -r token.pickle /sdcard
 ```
 
-### 13. Boom 💥!
+### 14. Boom 💥!
 
 goto your sdcard (phone memory) you'll find token.pickle there.
 
